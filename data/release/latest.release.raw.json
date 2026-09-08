@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 17412280,
       "digest": "sha256:a8ac319fd43af5ea7ce967caa4d3d00d20fca7aa8de0fda30a3e0ddde985b3a3",
-      "download_count": 2541,
+      "download_count": 2542,
       "created_at": "2025-07-14T16:22:04Z",
       "updated_at": "2025-07-14T16:22:05Z",
       "browser_download_url": "https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_linux_64-bit"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 17753600,
       "digest": "sha256:63132358baf2bfefdf0724681c7ca3c563e89ece944d982463a1ec1efb992d9b",
-      "download_count": 502,
+      "download_count": 503,
       "created_at": "2025-07-14T16:22:05Z",
       "updated_at": "2025-07-14T16:22:06Z",
       "browser_download_url": "https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_windows_64-bit.exe"
