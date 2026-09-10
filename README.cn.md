@@ -4,13 +4,25 @@
 
 A fancy terminal browser for the Gemini protocol.
 
-![amfora](https://repo.x-cmd.io/amfora.svg)
+![amfora](https://repo.x-cmd.io/amfora.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install amfora
 ```
+
+## 代码规模
+
+合计: **7,704** 行代码（覆盖前 5 种语言、共 **74** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Go | 6,774 | 1,081 | 1,063 | 49 |
+| Toml | 804 | 833 | 240 | 20 |
+| Python | 72 | 11 | 28 | 1 |
+| Makefile | 32 | 1 | 9 | 1 |
+| Sh | 22 | 3 | 8 | 3 |
 
 ## 源代码
 
@@ -22,7 +34,6 @@ x install amfora
 - **最新版本**: `v1.11.0` (2025-07-14)
 - **最近提交**: 2026-03-06
 - **Release 含资产**: 15 个
-- **发布时间**: 2025-07-14T16:17:17Z
 
 ## 流行度
 
@@ -37,20 +48,49 @@ x install amfora
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 1 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 1 | 1 | 1 | 0 |
 | 360d | 2025-09-15 | 0 | 1 | 1 | 1 | 2 | 1 |
+| last720d | 2024-09-20 | 1 | 6 | 1 | 4 | 5 | 20 |
 
-## 代码规模
+## Release 资产
 
-合计: **7,704** 行代码（覆盖前 5 种语言、共 **74** 个文件）。
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [amfora_1.11.0_checksums.txt](https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_checksums.txt) | 1.3 KiB | `other` |
+| [amfora_1.11.0_freebsd_32-bit](https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_freebsd_32-bit) | 15.2 MiB | `other` |
+| [amfora_1.11.0_freebsd_64-bit](https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_freebsd_64-bit) | 16.6 MiB | `other` |
+| [amfora_1.11.0_linux_32-bit](https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_linux_32-bit) | 15.3 MiB | `other` |
+| [amfora_1.11.0_linux_64-bit](https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_linux_64-bit) | 16.6 MiB | `other` |
+| [amfora_1.11.0_linux_arm64](https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_linux_arm64) | 15.8 MiB | `native/linux/arm64` |
+| [amfora_1.11.0_linux_armv6](https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_linux_armv6) | 15.8 MiB | `native/linux/arm` |
+| [amfora_1.11.0_linux_armv7](https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_linux_armv7) | 15.8 MiB | `native/linux/arm` |
+| [amfora_1.11.0_macOS_64-bit](https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_macOS_64-bit) | 17.0 MiB | `native/darwin/x64` |
+| [amfora_1.11.0_netbsd_32-bit](https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_netbsd_32-bit) | 15.1 MiB | `other` |
+| [amfora_1.11.0_netbsd_64-bit](https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_netbsd_64-bit) | 16.6 MiB | `other` |
+| [amfora_1.11.0_openbsd_32-bit](https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_openbsd_32-bit) | 15.2 MiB | `other` |
+| [amfora_1.11.0_openbsd_64-bit](https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_openbsd_64-bit) | 16.6 MiB | `other` |
+| [amfora_1.11.0_windows_32-bit.exe](https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_windows_32-bit.exe) | 15.7 MiB | `native/win/x64` |
+| [amfora_1.11.0_windows_64-bit.exe](https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_windows_64-bit.exe) | 16.9 MiB | `native/win/x64` |
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Go | 6,774 | 1,081 | 1,063 | 49 |
-| Toml | 804 | 833 | 240 | 20 |
-| Python | 72 | 11 | 28 | 1 |
-| Makefile | 32 | 1 | 9 | 1 |
-| Sh | 22 | 3 | 8 | 3 |
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/amfora) 上共有 **72** 个发行版报告此项目。**38** 个 ✅ 已是最新上游版本，**29** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.11.0` | ✅ latest |
+| Debian 14 | `1.11.0` | ✅ latest |
+| Debian 13 | `1.10.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.11.0` | ✅ latest |
+| Ubuntu 24.04 LTS | `1.9.2` | ⚠️ outdated |
+| Arch | `1.11.0` | ✅ latest |
+| Homebrew | `1.11.0` | ✅ latest |
+| Nix unstable | `1.11.0` | ✅ latest |
+| Void | `1.11.0` | ✅ latest |
+| Alpine edge | `1.11.0` | ✅ latest |
+| openSUSE Tumbleweed | `1.11.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -61,4 +101,4 @@ amfora 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:28:09Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:47:16Z._
