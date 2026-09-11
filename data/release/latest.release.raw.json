@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 16015544,
       "digest": "sha256:37ae122293ae837db1345f2ad0881e231d26383ea439e95f99e42d67ea86bc70",
-      "download_count": 67,
+      "download_count": 69,
       "created_at": "2025-07-14T16:22:05Z",
       "updated_at": "2025-07-14T16:22:06Z",
       "browser_download_url": "https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_linux_32-bit"
