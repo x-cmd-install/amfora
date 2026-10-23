@@ -47,12 +47,12 @@ Total: **7,710** lines of code across **74** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 1 | 1 | 0 | 0 | 1 |
-| last60d | 2026-08-23 | 0 | 1 | 1 | 0 | 1 | 1 |
-| 90d | 2026-07-24 | 0 | 1 | 1 | 0 | 1 | 1 |
-| last180d | 2026-04-25 | 0 | 1 | 3 | 1 | 1 | 1 |
-| 360d | 2025-10-27 | 0 | 2 | 3 | 1 | 1 | 2 |
-| last720d | 2024-11-01 | 1 | 6 | 3 | 3 | 5 | 21 |
+| 30d | 2026-09-23 | 0 | 1 | 1 | 0 | 0 | 1 |
+| last60d | 2026-08-24 | 0 | 1 | 1 | 0 | 1 | 1 |
+| 90d | 2026-07-25 | 0 | 1 | 1 | 0 | 1 | 1 |
+| last180d | 2026-04-26 | 0 | 1 | 3 | 1 | 1 | 1 |
+| 360d | 2025-10-28 | 0 | 2 | 3 | 1 | 1 | 2 |
+| last720d | 2024-11-02 | 1 | 6 | 3 | 3 | 5 | 21 |
 
 ## Release assets
 
@@ -74,6 +74,24 @@ Total: **7,710** lines of code across **74** files in the top 5 languages.
 | [amfora_1.11.0_windows_32-bit.exe](https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_windows_32-bit.exe) | 15.7 MiB | `native/win/x64` |
 | [amfora_1.11.0_windows_64-bit.exe](https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_windows_64-bit.exe) | 16.9 MiB | `native/win/x64` |
 
+## Distribution status
+
+Reported by **69** distros on [repology.org](https://repology.org/project/amfora). **38** are ✅ on the latest upstream release, **26** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.11.0` | ✅ latest |
+| Debian 14 | `1.11.0` | ✅ latest |
+| Debian 13 | `1.10.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.11.0` | ✅ latest |
+| Ubuntu 24.04 LTS | `1.9.2` | ⚠️ outdated |
+| Arch | `1.11.0` | ✅ latest |
+| Homebrew | `1.11.0` | ✅ latest |
+| Nix unstable | `1.11.0` | ✅ latest |
+| Void | `1.11.0` | ✅ latest |
+| Alpine edge | `1.11.0` | ✅ latest |
+| openSUSE Tumbleweed | `1.11.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for amfora lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `amfora` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -83,4 +101,4 @@ Install metadata for amfora lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:21:38Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:24:07Z._
