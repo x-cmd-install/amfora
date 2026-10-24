@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 16015544,
       "digest": "sha256:37ae122293ae837db1345f2ad0881e231d26383ea439e95f99e42d67ea86bc70",
-      "download_count": 115,
+      "download_count": 116,
       "created_at": "2025-07-14T16:22:05Z",
       "updated_at": "2025-07-14T16:22:06Z",
       "browser_download_url": "https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_linux_32-bit"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 16580792,
       "digest": "sha256:14eec44cda3ad0fdba1ce795758614e4ad6eec1c6cfbd42b92150197ec10d817",
-      "download_count": 122,
+      "download_count": 123,
       "created_at": "2025-07-14T16:22:06Z",
       "updated_at": "2025-07-14T16:22:07Z",
       "browser_download_url": "https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_linux_arm64"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 17359051,
       "digest": "sha256:c6432ff6d55c58e04b14fb774ee26a56b348cdebfaf73a6762a27d04011a291e",
-      "download_count": 11,
+      "download_count": 12,
       "created_at": "2025-07-14T16:22:06Z",
       "updated_at": "2025-07-14T16:22:07Z",
       "browser_download_url": "https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_netbsd_64-bit"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 16438272,
       "digest": "sha256:bef9e2b521c95012343de16270c44f52e51dd437c3e8a89fbfefedd081c7f724",
-      "download_count": 122,
+      "download_count": 123,
       "created_at": "2025-07-14T16:22:07Z",
       "updated_at": "2025-07-14T16:22:08Z",
       "browser_download_url": "https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_windows_32-bit.exe"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 17753600,
       "digest": "sha256:63132358baf2bfefdf0724681c7ca3c563e89ece944d982463a1ec1efb992d9b",
-      "download_count": 576,
+      "download_count": 579,
       "created_at": "2025-07-14T16:22:05Z",
       "updated_at": "2025-07-14T16:22:06Z",
       "browser_download_url": "https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_windows_64-bit.exe"
