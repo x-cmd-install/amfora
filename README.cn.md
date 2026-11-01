@@ -47,12 +47,12 @@ x install amfora
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-01 | 0 | 1 | 1 | 0 | 1 | 1 |
-| 90d | 2026-08-02 | 0 | 1 | 1 | 0 | 1 | 1 |
-| last180d | 2026-05-04 | 0 | 1 | 3 | 1 | 1 | 1 |
-| 360d | 2025-11-05 | 0 | 2 | 3 | 1 | 1 | 2 |
-| last720d | 2024-11-10 | 1 | 6 | 3 | 3 | 5 | 21 |
+| 30d | 2026-10-02 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-09-02 | 0 | 1 | 1 | 0 | 1 | 1 |
+| 90d | 2026-08-03 | 0 | 1 | 1 | 0 | 1 | 1 |
+| last180d | 2026-05-05 | 0 | 1 | 3 | 1 | 1 | 1 |
+| 360d | 2025-11-06 | 0 | 2 | 3 | 1 | 1 | 2 |
+| last720d | 2024-11-11 | 1 | 6 | 3 | 3 | 5 | 21 |
 
 ## Release 资产
 
@@ -86,7 +86,7 @@ x install amfora
 | Ubuntu 26.04 LTS | `1.11.0` | ✅ latest |
 | Ubuntu 24.04 LTS | `1.9.2` | ⚠️ outdated |
 | Arch | `1.11.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.11.0` | ✅ latest |
 | Nix unstable | `1.11.0` | ✅ latest |
 | Void | `1.11.0` | ✅ latest |
 | Alpine edge | `1.11.0` | ✅ latest |
@@ -101,4 +101,4 @@ amfora 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261031.yml` · 2026-10-31T06:13:12Z._
+_数据快照: `data/card/261101.yml` · 2026-11-01T06:41:29Z._
