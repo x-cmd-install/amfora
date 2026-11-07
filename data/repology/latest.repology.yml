@@ -1,3 +1,39 @@
+- repo: kiss_community
+  subrepo: community
+  srcname: amfora
+  visiblename: amfora
+  version: 1.11.0
+  origversion: null
+  status: newest
+  maintainers:
+    - ben@bvnf.space
+- repo: parrot
+  subrepo: parrot/main
+  srcname: amfora
+  binnames:
+    - amfora
+  visiblename: amfora
+  version: 1.10.0
+  origversion: 1.10.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ecliptik@gmail.com
+    - nilesh@debian.org
+  categories:
+    - misc
+- repo: pkgsrc_2026_2
+  srcname: net/amfora
+  binname: amfora
+  visiblename: net/amfora
+  version: 1.11.0
+  origversion: 1.11.0nb12
+  status: newest
+  summary: Terminal browser for the Gemini protocol
+  maintainers:
+    - mj@mjturner.net
+  categories:
+    - net
 - repo: pkgsrc_2026_3
   srcname: net/amfora
   binname: amfora
@@ -10,6 +46,131 @@
     - mj@mjturner.net
   categories:
     - net
+- repo: pkgsrc_current
+  srcname: net/amfora
+  binname: amfora
+  visiblename: net/amfora
+  version: 1.11.0
+  origversion: 1.11.0nb18
+  status: newest
+  summary: Terminal browser for the Gemini protocol
+  maintainers:
+    - mj@mjturner.net
+  categories:
+    - net
+- repo: scoop
+  subrepo: extras
+  binname: amfora
+  visiblename: amfora
+  version: 1.11.0
+  origversion: null
+  status: newest
+  licenses:
+    - GPL-3.0-only
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: amfora
+  binnames:
+    - amfora
+  visiblename: amfora
+  version: 1.10.0
+  origversion: 1.10.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ecliptik@gmail.com
+    - nilesh@debian.org
+  categories:
+    - net
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: amfora
+  binnames:
+    - amfora
+  visiblename: amfora
+  version: 1.9.2
+  origversion: 1.9.2-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ecliptik@gmail.com
+    - nilesh@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: amfora
+  binnames:
+    - amfora
+  visiblename: amfora
+  version: 1.10.0
+  origversion: 1.10.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ecliptik@gmail.com
+    - nilesh@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: amfora
+  binnames:
+    - amfora
+  visiblename: amfora
+  version: 1.11.0
+  origversion: 1.11.0-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ecliptik@gmail.com
+  categories:
+    - misc
+- repo: liguros_stable
+  srcname: net-client/amfora
+  visiblename: net-client/amfora
+  version: 1.9.2
+  origversion: null
+  status: outdated
+  summary: A fancy terminal browser for the Gemini protocol.
+  maintainers:
+    - fallback-mnt-liguros@repology
+  licenses:
+    - 0BSD
+    - Apache-2.0
+    - BSD
+    - BSD-2
+    - GPL-3
+    - MIT
+    - MPL-2.0
+  categories:
+    - net-client
+- repo: alpine_3_22
+  subrepo: community
+  srcname: amfora
+  binname: amfora
+  visiblename: amfora
+  version: 1.10.0
+  origversion: 1.10.0-r15
+  status: outdated
+  summary: terminal browser for the Gemini protocol
+  maintainers:
+    - omni@gitlab.alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: liguros_stable
+  srcname: net-client/amfora
+  visiblename: net-client/amfora
+  version: 1.8.0
+  origversion: null
+  status: legacy
+  summary: A fancy terminal browser for the Gemini protocol.
+  maintainers:
+    - fallback-mnt-liguros@repology
+  licenses:
+    - GPL-3
+  categories:
+    - net-client
 - repo: alpine_3_17
   subrepo: community
   srcname: amfora
@@ -69,19 +230,6 @@
   visiblename: amfora
   version: 1.10.0
   origversion: 1.10.0-r10
-  status: outdated
-  summary: terminal browser for the Gemini protocol
-  maintainers:
-    - omni@gitlab.alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: amfora
-  binname: amfora
-  visiblename: amfora
-  version: 1.10.0
-  origversion: 1.10.0-r15
   status: outdated
   summary: terminal browser for the Gemini protocol
   maintainers:
@@ -274,93 +422,13 @@
     - lcook@freebsd.org
   categories:
     - www
-- repo: pkgsrc_current
-  srcname: net/amfora
-  binname: amfora
-  visiblename: net/amfora
-  version: 1.11.0
-  origversion: 1.11.0nb18
-  status: newest
-  summary: Terminal browser for the Gemini protocol
-  maintainers:
-    - mj@mjturner.net
-  categories:
-    - net
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: amfora
-  binnames:
-    - amfora
-  visiblename: amfora
-  version: 1.10.0
-  origversion: 1.10.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ecliptik@gmail.com
-    - nilesh@debian.org
-  categories:
-    - net
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: amfora
-  binnames:
-    - amfora
-  visiblename: amfora
-  version: 1.9.2
-  origversion: 1.9.2-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ecliptik@gmail.com
-    - nilesh@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: amfora
-  binnames:
-    - amfora
-  visiblename: amfora
-  version: 1.10.0
-  origversion: 1.10.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ecliptik@gmail.com
-    - nilesh@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: amfora
-  binnames:
-    - amfora
-  visiblename: amfora
-  version: 1.11.0
-  origversion: 1.11.0-1
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ecliptik@gmail.com
-  categories:
-    - misc
-- repo: scoop
-  subrepo: extras
-  binname: amfora
-  visiblename: amfora
-  version: 1.11.0
-  origversion: null
-  status: newest
-  licenses:
-    - GPL-3.0-only
 - repo: gentoo_ovl_guru
   srcname: net-client/amfora
   visiblename: net-client/amfora
   version: 1.9.2
   origversion: null
   status: legacy
-  summary: A fancy terminal browser for the Gemini protocol.
+  summary: A fancy terminal browser for the Gemini protocol
   maintainers:
     - guru@gentoo.org
   licenses:
@@ -379,7 +447,7 @@
   version: 1.11.0
   origversion: null
   status: newest
-  summary: A fancy terminal browser for the Gemini protocol.
+  summary: A fancy terminal browser for the Gemini protocol
   maintainers:
     - guru@gentoo.org
   licenses:
@@ -420,22 +488,13 @@
     - ecliptik@gmail.com
   categories:
     - misc
-- repo: kiss_community
-  subrepo: community
-  srcname: amfora
-  visiblename: amfora
+- repo: liguros_develop
+  srcname: net-client/amfora
+  visiblename: net-client/amfora
   version: 1.11.0
   origversion: null
   status: newest
-  maintainers:
-    - ben@bvnf.space
-- repo: liguros_stable
-  srcname: net-client/amfora
-  visiblename: net-client/amfora
-  version: 1.9.2
-  origversion: null
-  status: outdated
-  summary: A fancy terminal browser for the Gemini protocol.
+  summary: A fancy terminal browser for the Gemini protocol
   maintainers:
     - fallback-mnt-liguros@repology
   licenses:
@@ -448,59 +507,13 @@
     - MPL-2.0
   categories:
     - net-client
-- repo: liguros_stable
-  srcname: net-client/amfora
-  visiblename: net-client/amfora
-  version: 1.8.0
-  origversion: null
-  status: legacy
-  summary: A fancy terminal browser for the Gemini protocol.
-  maintainers:
-    - fallback-mnt-liguros@repology
-  licenses:
-    - GPL-3
-  categories:
-    - net-client
-- repo: liguros_develop
-  srcname: net-client/amfora
-  visiblename: net-client/amfora
-  version: 1.11.0
-  origversion: null
-  status: newest
-  summary: A fancy terminal browser for the Gemini protocol.
-  maintainers:
-    - fallback-mnt-liguros@repology
-  licenses:
-    - 0BSD
-    - Apache-2.0
-    - BSD
-    - BSD-2
-    - GPL-3
-    - MIT
-    - MPL-2.0
-  categories:
-    - net-client
-- repo: solus
-  srcname: amfora
-  binname: amfora
-  visiblename: amfora
-  version: 1.11.0
-  origversion: null
-  status: newest
-  summary: Gemini client for the terminal
-  maintainers:
-    - staudi.kaos@gmail.com
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - network.clients
 - repo: liguros_develop
   srcname: net-client/amfora
   visiblename: net-client/amfora
   version: 1.9.2
   origversion: null
   status: legacy
-  summary: A fancy terminal browser for the Gemini protocol.
+  summary: A fancy terminal browser for the Gemini protocol
   maintainers:
     - fallback-mnt-liguros@repology
   licenses:
@@ -532,23 +545,23 @@
   srcname: amfora
   binname: amfora
   visiblename: amfora
-  version: 1.9.2
-  origversion: 1.9.2-4
-  status: outdated
+  version: 1.11.0
+  origversion: 1.11.0-1
+  status: newest
   summary: Terminal browser for the Gemini protocol
   licenses:
-    - GPL3
+    - GPL-3.0-only
 - repo: manjaro_testing
   subrepo: extra
   srcname: amfora
   binname: amfora
   visiblename: amfora
-  version: 1.9.2
-  origversion: 1.9.2-4
-  status: outdated
+  version: 1.11.0
+  origversion: 1.11.0-1
+  status: newest
   summary: Terminal browser for the Gemini protocol
   licenses:
-    - GPL3
+    - GPL-3.0-only
 - repo: manjaro_unstable
   subrepo: extra
   srcname: amfora
@@ -703,21 +716,6 @@
   licenses:
     - GPL-3.0-only
 - repo: parrot
-  subrepo: parrot/main
-  srcname: amfora
-  binnames:
-    - amfora
-  visiblename: amfora
-  version: 1.10.0
-  origversion: 1.10.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ecliptik@gmail.com
-    - nilesh@debian.org
-  categories:
-    - misc
-- repo: parrot
   subrepo: parrot-updates/main
   srcname: amfora
   binnames:
@@ -732,18 +730,20 @@
     - nilesh@debian.org
   categories:
     - misc
-- repo: pkgsrc_2026_2
-  srcname: net/amfora
+- repo: solus
+  srcname: amfora
   binname: amfora
-  visiblename: net/amfora
+  visiblename: amfora
   version: 1.11.0
-  origversion: 1.11.0nb12
+  origversion: null
   status: newest
-  summary: Terminal browser for the Gemini protocol
+  summary: Gemini client for the terminal
   maintainers:
-    - mj@mjturner.net
+    - staudi.kaos@gmail.com
+  licenses:
+    - GPL-3.0-or-later
   categories:
-    - net
+    - network.clients
 - repo: solus
   srcname: amfora
   binname: amfora-dbginfo
@@ -874,6 +874,20 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: amfora
+  binnames:
+    - amfora
+  visiblename: amfora
+  version: 1.11.0
+  origversion: 1.11.0-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ecliptik@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: amfora
   binnames:
     - amfora
