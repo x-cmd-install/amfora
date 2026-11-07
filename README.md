@@ -47,12 +47,12 @@ Total: **7,710** lines of code across **74** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-07 | 0 | 1 | 1 | 0 | 0 | 1 |
-| 90d | 2026-08-08 | 0 | 1 | 1 | 0 | 1 | 1 |
-| last180d | 2026-05-10 | 0 | 1 | 3 | 1 | 1 | 1 |
-| 360d | 2025-11-11 | 0 | 2 | 3 | 1 | 1 | 2 |
-| last720d | 2024-11-16 | 1 | 6 | 3 | 3 | 5 | 21 |
+| 30d | 2026-10-08 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-09-08 | 0 | 1 | 1 | 0 | 0 | 1 |
+| 90d | 2026-08-09 | 0 | 1 | 1 | 0 | 1 | 1 |
+| last180d | 2026-05-11 | 0 | 1 | 3 | 1 | 1 | 1 |
+| 360d | 2025-11-12 | 0 | 2 | 3 | 1 | 1 | 2 |
+| last720d | 2024-11-17 | 1 | 6 | 3 | 3 | 5 | 21 |
 
 ## Release assets
 
@@ -76,7 +76,7 @@ Total: **7,710** lines of code across **74** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **69** distros on [repology.org](https://repology.org/project/amfora). **36** are ✅ on the latest upstream release, **28** are ⚠️ on an older version.
+Reported by **70** distros on [repology.org](https://repology.org/project/amfora). **39** are ✅ on the latest upstream release, **26** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -101,4 +101,4 @@ Install metadata for amfora lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:32:34Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:47:39Z._
