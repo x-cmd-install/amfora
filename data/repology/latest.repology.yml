@@ -1,146 +1,15 @@
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: amfora
-  binnames:
-    - amfora
-  visiblename: amfora
-  version: 1.9.2
-  origversion: 1.9.2-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ecliptik@gmail.com
-    - nilesh@debian.org
-  categories:
-    - misc
-- repo: nix_stable_25_05
-  srcname: amfora
-  visiblename: amfora
-  version: 1.10.0
-  origversion: null
-  status: outdated
-  summary: Fancy terminal browser for the Gemini protocol
-  maintainers:
-    - ext0l@riseup.net
-  licenses:
-    - GPL-3.0
-- repo: raspbian_stable
-  subrepo: main
-  srcname: amfora
-  binnames:
-    - amfora
-  visiblename: amfora
-  version: 1.10.0
-  origversion: 1.10.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ecliptik@gmail.com
-    - nilesh@debian.org
-  categories:
-    - misc
-- repo: scoop
-  subrepo: extras
+- repo: pkgsrc_2026_2
+  srcname: net/amfora
   binname: amfora
-  visiblename: amfora
+  visiblename: net/amfora
   version: 1.11.0
-  origversion: null
+  origversion: 1.11.0nb12
   status: newest
-  licenses:
-    - GPL-3.0-only
-- repo: nix_stable_25_11
-  srcname: amfora
-  visiblename: amfora
-  version: 1.11.0
-  origversion: null
-  status: newest
-  summary: Fancy terminal browser for the Gemini protocol
+  summary: Terminal browser for the Gemini protocol
   maintainers:
-    - ext0l@riseup.net
-  licenses:
-    - GPL-3.0
-- repo: raspbian_testing
-  subrepo: main
-  srcname: amfora
-  binnames:
-    - amfora
-  visiblename: amfora
-  version: 1.11.0
-  origversion: 1.11.0-1
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ecliptik@gmail.com
+    - mj@mjturner.net
   categories:
-    - misc
-- repo: nix_stable_24_11
-  srcname: amfora
-  visiblename: amfora
-  version: 1.10.0
-  origversion: null
-  status: outdated
-  summary: Fancy terminal browser for the Gemini protocol
-  maintainers:
-    - ext0l@riseup.net
-  licenses:
-    - GPL-3.0
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: amfora
-  binnames:
-    - amfora
-  visiblename: amfora
-  version: 1.11.0
-  origversion: 1.11.0-1
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ecliptik@gmail.com
-  categories:
-    - misc
-- repo: debian_experimental
-  subrepo: experimental/main
-  srcname: amfora
-  binnames:
-    - amfora
-  visiblename: amfora
-  version: 1.11.0
-  origversion: 1.11.0-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ecliptik@gmail.com
-  categories:
-    - misc
-- repo: deepin_25
-  subrepo: community
-  srcname: amfora
-  binnames:
-    - amfora
-  visiblename: amfora
-  version: 1.10.0
-  origversion: 1.10.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ecliptik@gmail.com
-    - nilesh@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: amfora
-  binnames:
-    - amfora
-  visiblename: amfora
-  version: 1.11.0
-  origversion: 1.11.0-1
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ecliptik@gmail.com
-  categories:
-    - misc
+    - net
 - repo: alpine_3_17
   subrepo: community
   srcname: amfora
@@ -180,6 +49,20 @@
     - omni@gitlab.alpinelinux.org
   licenses:
     - GPL-3.0-or-later
+- repo: debian_14
+  subrepo: forky/main
+  srcname: amfora
+  binnames:
+    - amfora
+  visiblename: amfora
+  version: 1.11.0
+  origversion: 1.11.0-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ecliptik@gmail.com
+  categories:
+    - misc
 - repo: alpine_3_20
   subrepo: community
   srcname: amfora
@@ -322,8 +205,66 @@
     - nilesh@debian.org
   categories:
     - misc
-- repo: debian_14
-  subrepo: forky/main
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: amfora
+  binnames:
+    - amfora
+  visiblename: amfora
+  version: 1.10.0
+  origversion: 1.10.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ecliptik@gmail.com
+    - nilesh@debian.org
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: amfora
+  binnames:
+    - amfora
+  visiblename: amfora
+  version: 1.11.0
+  origversion: 1.11.0-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ecliptik@gmail.com
+  categories:
+    - misc
+- repo: debian_experimental
+  subrepo: experimental/main
+  srcname: amfora
+  binnames:
+    - amfora
+  visiblename: amfora
+  version: 1.11.0
+  origversion: 1.11.0-2
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ecliptik@gmail.com
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: amfora
+  binnames:
+    - amfora
+  visiblename: amfora
+  version: 1.10.0
+  origversion: 1.10.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ecliptik@gmail.com
+    - nilesh@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: amfora
   binnames:
     - amfora
@@ -341,7 +282,7 @@
   binname: amfora
   visiblename: www/amfora
   version: 1.11.0
-  origversion: 1.11.0_15
+  origversion: 1.11.0_16
   status: newest
   summary: Fancy terminal browser for the Gemini protocol
   maintainers:
@@ -493,6 +434,21 @@
     - MPL-2.0
   categories:
     - net-client
+- repo: parrot
+  subrepo: parrot/main
+  srcname: amfora
+  binnames:
+    - amfora
+  visiblename: amfora
+  version: 1.10.0
+  origversion: 1.10.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ecliptik@gmail.com
+    - nilesh@debian.org
+  categories:
+    - misc
 - repo: macports
   srcname: net/amfora
   binname: amfora
@@ -547,6 +503,39 @@
   origversion: null
   status: outdated
   summary: A fancy terminal browser for the Gemini protocol
+  maintainers:
+    - ext0l@riseup.net
+  licenses:
+    - GPL-3.0
+- repo: nix_stable_24_11
+  srcname: amfora
+  visiblename: amfora
+  version: 1.10.0
+  origversion: null
+  status: outdated
+  summary: Fancy terminal browser for the Gemini protocol
+  maintainers:
+    - ext0l@riseup.net
+  licenses:
+    - GPL-3.0
+- repo: nix_stable_25_05
+  srcname: amfora
+  visiblename: amfora
+  version: 1.10.0
+  origversion: null
+  status: outdated
+  summary: Fancy terminal browser for the Gemini protocol
+  maintainers:
+    - ext0l@riseup.net
+  licenses:
+    - GPL-3.0
+- repo: nix_stable_25_11
+  srcname: amfora
+  visiblename: amfora
+  version: 1.11.0
+  origversion: null
+  status: newest
+  summary: Fancy terminal browser for the Gemini protocol
   maintainers:
     - ext0l@riseup.net
   licenses:
@@ -649,48 +638,6 @@
   summary: Terminal browser for the Gemini protocol
   licenses:
     - GPL-3.0-only
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: amfora
-  binnames:
-    - amfora
-  visiblename: amfora
-  version: 1.10.0
-  origversion: 1.10.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ecliptik@gmail.com
-    - nilesh@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: amfora
-  binnames:
-    - amfora
-  visiblename: amfora
-  version: 1.10.0
-  origversion: 1.10.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ecliptik@gmail.com
-    - nilesh@debian.org
-  categories:
-    - misc
-- repo: pkgsrc_2026_2
-  srcname: net/amfora
-  binname: amfora
-  visiblename: net/amfora
-  version: 1.11.0
-  origversion: 1.11.0nb12
-  status: newest
-  summary: Terminal browser for the Gemini protocol
-  maintainers:
-    - mj@mjturner.net
-  categories:
-    - net
 - repo: pkgsrc_2026_3
   srcname: net/amfora
   binname: amfora
@@ -708,7 +655,7 @@
   binname: amfora
   visiblename: net/amfora
   version: 1.11.0
-  origversion: 1.11.0nb18
+  origversion: 1.11.0nb19
   status: newest
   summary: Terminal browser for the Gemini protocol
   maintainers:
@@ -730,6 +677,59 @@
     - nilesh@debian.org
   categories:
     - net
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: amfora
+  binnames:
+    - amfora
+  visiblename: amfora
+  version: 1.9.2
+  origversion: 1.9.2-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ecliptik@gmail.com
+    - nilesh@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: amfora
+  binnames:
+    - amfora
+  visiblename: amfora
+  version: 1.10.0
+  origversion: 1.10.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ecliptik@gmail.com
+    - nilesh@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: amfora
+  binnames:
+    - amfora
+  visiblename: amfora
+  version: 1.11.0
+  origversion: 1.11.0-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ecliptik@gmail.com
+  categories:
+    - misc
+- repo: scoop
+  subrepo: extras
+  binname: amfora
+  visiblename: amfora
+  version: 1.11.0
+  origversion: null
+  status: newest
+  licenses:
+    - GPL-3.0-only
 - repo: solus
   srcname: amfora
   binname: amfora
