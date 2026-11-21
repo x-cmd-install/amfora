@@ -37,7 +37,7 @@ Total: **7,710** lines of code across **74** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,362 · **Forks**: 77 · **Open issues**: 244 · **Contributors**: 52
+- **Stars**: 1,363 · **Forks**: 77 · **Open issues**: 244 · **Contributors**: 52
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **7,710** lines of code across **74** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-21 | 0 | 1 | 1 | 0 | 0 | 1 |
-| 90d | 2026-08-22 | 0 | 1 | 1 | 0 | 1 | 1 |
-| last180d | 2026-05-24 | 0 | 1 | 2 | 1 | 1 | 1 |
-| 360d | 2025-11-25 | 0 | 1 | 3 | 1 | 1 | 2 |
-| last720d | 2024-11-30 | 1 | 6 | 3 | 3 | 5 | 21 |
+| 30d | 2026-10-22 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-22 | 0 | 1 | 1 | 0 | 0 | 1 |
+| 90d | 2026-08-23 | 0 | 1 | 1 | 0 | 1 | 1 |
+| last180d | 2026-05-25 | 0 | 1 | 2 | 1 | 1 | 1 |
+| 360d | 2025-11-26 | 0 | 1 | 3 | 1 | 1 | 2 |
+| last720d | 2024-12-01 | 1 | 6 | 3 | 3 | 5 | 21 |
 
 ## Release assets
 
@@ -86,7 +86,7 @@ Reported by **70** distros on [repology.org](https://repology.org/project/amfora
 | Ubuntu 26.04 LTS | `1.11.0` | ✅ latest |
 | Ubuntu 24.04 LTS | `1.9.2` | ⚠️ outdated |
 | Arch | `1.11.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.11.0` | ✅ latest |
 | Nix unstable | `1.11.0` | ✅ latest |
 | Void | `1.11.0` | ✅ latest |
 | Alpine edge | `1.11.0` | ✅ latest |
@@ -101,4 +101,4 @@ Install metadata for amfora lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T09:56:57Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:54:26Z._
