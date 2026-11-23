@@ -1,47 +1,3 @@
-- repo: gentoo_ovl_guru
-  srcname: net-client/amfora
-  visiblename: net-client/amfora
-  version: 1.9.2
-  origversion: null
-  status: legacy
-  summary: A fancy terminal browser for the Gemini protocol
-  maintainers:
-    - guru@gentoo.org
-  licenses:
-    - 0BSD
-    - Apache-2.0
-    - BSD
-    - BSD-2
-    - GPL-3
-    - MIT
-    - MPL-2.0
-  categories:
-    - net-client
-- repo: nix_stable_25_11
-  srcname: amfora
-  visiblename: amfora
-  version: 1.11.0
-  origversion: null
-  status: newest
-  summary: Fancy terminal browser for the Gemini protocol
-  maintainers:
-    - ext0l@riseup.net
-  licenses:
-    - GPL-3.0
-- repo: raspbian_testing
-  subrepo: main
-  srcname: amfora
-  binnames:
-    - amfora
-  visiblename: amfora
-  version: 1.11.0
-  origversion: 1.11.0-1
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ecliptik@gmail.com
-  categories:
-    - misc
 - repo: alpine_3_17
   subrepo: community
   srcname: amfora
@@ -133,19 +89,6 @@
     - omni@gitlab.alpinelinux.org
   licenses:
     - GPL-3.0-or-later
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: amfora
-  binname: amfora
-  visiblename: amfora
-  version: 1.11.0
-  origversion: 1.11.0_2
-  status: newest
-  summary: Fancy terminal browser for the Gemini protocol
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - GPL-3.0-only
 - repo: alpine_3_24
   subrepo: community
   srcname: amfora
@@ -319,6 +262,25 @@
     - lcook@freebsd.org
   categories:
     - www
+- repo: gentoo_ovl_guru
+  srcname: net-client/amfora
+  visiblename: net-client/amfora
+  version: 1.9.2
+  origversion: null
+  status: legacy
+  summary: A fancy terminal browser for the Gemini protocol
+  maintainers:
+    - guru@gentoo.org
+  licenses:
+    - 0BSD
+    - Apache-2.0
+    - BSD
+    - BSD-2
+    - GPL-3
+    - MIT
+    - MPL-2.0
+  categories:
+    - net-client
 - repo: gentoo_ovl_guru
   srcname: net-client/amfora
   visiblename: net-client/amfora
@@ -525,15 +487,17 @@
     - ext0l@riseup.net
   licenses:
     - GPL-3.0
-- repo: wikidata
-  srcname: Q96949811
-  visiblename: Amfora
+- repo: nix_stable_25_11
+  srcname: amfora
+  visiblename: amfora
   version: 1.11.0
   origversion: null
   status: newest
-  summary: text-based client for Gemini
+  summary: Fancy terminal browser for the Gemini protocol
+  maintainers:
+    - ext0l@riseup.net
   licenses:
-    - GNU General Public License, version 3.0
+    - GPL-3.0
 - repo: nix_stable_26_05
   srcname: amfora
   visiblename: amfora
@@ -743,6 +707,20 @@
     - nilesh@debian.org
   categories:
     - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: amfora
+  binnames:
+    - amfora
+  visiblename: amfora
+  version: 1.11.0
+  origversion: 1.11.0-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ecliptik@gmail.com
+  categories:
+    - misc
 - repo: scoop
   subrepo: extras
   binname: amfora
@@ -922,3 +900,25 @@
     - ecliptik@gmail.com
   categories:
     - universe/misc
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: amfora
+  binname: amfora
+  visiblename: amfora
+  version: 1.11.0
+  origversion: 1.11.0_2
+  status: newest
+  summary: Fancy terminal browser for the Gemini protocol
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - GPL-3.0-only
+- repo: wikidata
+  srcname: Q96949811
+  visiblename: Amfora
+  version: 1.11.0
+  origversion: null
+  status: newest
+  summary: text-based client for Gemini
+  licenses:
+    - GNU General Public License, version 3.0
