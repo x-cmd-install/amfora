@@ -37,22 +37,22 @@ Total: **7,710** lines of code across **74** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,364 · **Forks**: 77 · **Open issues**: 244 · **Contributors**: 52
+- **Stars**: 1,364 · **Forks**: 77 · **Open issues**: 245 · **Contributors**: 52
 
 ## Totals (cumulative)
 
-- **Releases**: 16 · **Merged PRs**: 85 · **Open PRs**: 3 · **Closed issues**: 235 · **Open issues**: 9 · **Commits**: 554
+- **Releases**: 16 · **Merged PRs**: 85 · **Open PRs**: 3 · **Closed issues**: 235 · **Open issues**: 10 · **Commits**: 554
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-28 | 0 | 1 | 1 | 0 | 0 | 1 |
-| 90d | 2026-08-29 | 0 | 1 | 1 | 0 | 1 | 1 |
-| last180d | 2026-05-31 | 0 | 1 | 2 | 1 | 1 | 1 |
-| 360d | 2025-12-02 | 0 | 1 | 3 | 1 | 1 | 2 |
-| last720d | 2024-12-07 | 1 | 6 | 3 | 3 | 5 | 21 |
+| 30d | 2026-10-29 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-09-29 | 0 | 1 | 1 | 0 | 1 | 1 |
+| 90d | 2026-08-30 | 0 | 1 | 1 | 0 | 2 | 1 |
+| last180d | 2026-06-01 | 0 | 1 | 2 | 0 | 2 | 1 |
+| 360d | 2025-12-03 | 0 | 1 | 3 | 1 | 2 | 2 |
+| last720d | 2024-12-08 | 1 | 6 | 3 | 3 | 6 | 21 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for amfora lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T09:22:22Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T08:44:26Z._
